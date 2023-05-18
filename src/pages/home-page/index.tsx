@@ -1,12 +1,15 @@
+'use client';
 import React from 'react';
 import YouTubeVideoItem from './YoutubeVideoItem';
 
+
 const HomePage: React.FC = () => {
-    return (<>
+    return (<div className='flex flex-col items-center'>
         <div className='flex flex-col items-center p-8'>
             <h1 className="text-4xl font-bold">The Lord's Prayer</h1>
 
         </div>
+        <YouTubeVideoItem videoId="uR-5_w5gNYM" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className='flex flex-col items-center'>
                 <h2 className="text-xl font-bold">English</h2>
@@ -54,18 +57,11 @@ const HomePage: React.FC = () => {
                 <p>אָמֵן</p>
             </div>
         </div >
-        <div className='flex flex-col items-center p-8'>
-            <div className='flex flex-col sm:flex-row'>
-                <div className='p-8'>
-                    <YouTubeVideoItem videoId="uR-5_w5gNYM" />
-                </div>
-                <div className='p-8'>
-                    <YouTubeVideoItem videoId="bGGQeoVptKs" />
-                </div>
-            </div>
-        </div>
+        <YouTubeVideoItem videoId="bGGQeoVptKs" />
 
-    </>
+
+
+    </div>
     );
 };
 
