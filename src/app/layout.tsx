@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Pray Like This',
+  title: 'Pray Then Like This',
   description: 'An Aramaic Transliteration App',
 }
 
