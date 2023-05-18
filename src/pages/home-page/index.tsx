@@ -10,7 +10,8 @@ const HomePage: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className='flex flex-col items-center'>
                 <h2 className="text-xl font-bold">English</h2>
-                <p>Our Father who art in heaven, hallowed be thy name,</p>
+                <p>Our Father who art in heaven</p>
+                <p>Hallowed be thy name,</p>
                 <p>Thy kingdom come, thy will be done</p>
                 <p>On Earth as it is in Heaven.</p>
                 <p>Give us this day our daily bread,</p>
@@ -24,7 +25,8 @@ const HomePage: React.FC = () => {
             </div>
             <div className='flex flex-col items-center'>
                 <h2 className="text-xl font-bold">Aramaic Transliteration</h2>
-                <p>Abwoon d'bwashmaya, nethqadesh shmackh,</p>
+                <p>Abwoon d'bwashmaya</p>
+                <p>nethqadesh shmackh,</p>
                 <p>Teytey malkuthakh, neyweh tzevyanach</p>
                 <p>Aykanna d'bwashmaya aph bar'ha.</p>
                 <p>Habwlan lachma d'sunqanan yaomana,</p>
@@ -38,7 +40,8 @@ const HomePage: React.FC = () => {
             </div>
             <div className='flex flex-col items-center'>
                 <h2 className="text-xl font-bold">Aramaic</h2>
-                <p>אֵבוּן דּבַשׁמַיאָ נִתקַדְּשׁ שׁמך</p>
+                <p>אֵבוּן דּבַשׁמַיאָ</p>
+                <p>נִתקַדְּשׁ שׁמך</p>
                 <p>תֵּאתֶא מלכּוּתֶך נִהוֶא צֶכיֶנֵך</p>
                 <p>אֵיכֵּנֶּא דבַשׁמִא׃ אָףּ בּארעָא</p>
                 <p>הב לן לחמָא דסוּנקֲנַן יֶומֶנֶא</p>
@@ -52,7 +55,7 @@ const HomePage: React.FC = () => {
             </div>
         </div >
         <div className='flex flex-col items-center p-8'>
-            <div className='flex flex-row'>
+            <div className='flex flex-col sm:flex-row'>
                 <div className='p-8'>
                     <YouTubeVideoItem videoId="uR-5_w5gNYM" />
                 </div>
@@ -61,6 +64,7 @@ const HomePage: React.FC = () => {
                 </div>
             </div>
         </div>
+
     </>
     );
 };
